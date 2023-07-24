@@ -1,0 +1,33 @@
+.job {
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0, 0.418);
+}
+.social-media {
+  display: block;
+  margin-top: 22px;
+  text-align: center;
+}
+/* .social-media a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+    margin: 10px 7px;
+} 
+.social-media a:hover{
+     color: gray;
+} */
+.btn {
+  width: 100px;
+  margin-top: 20px;
+  color: white;
+  font-size: 22px;
+  background-color: black;
+  border: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 40px;
+  cursor: pointer;
+}
