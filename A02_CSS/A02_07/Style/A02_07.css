@@ -1,0 +1,35 @@
+body {
+  margin-left: 0%;
+  margin-top: 0%;
+}
+.purplle,
+.green,
+.cyan,
+.yellow {
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.green {
+  background-color: chartreuse;
+  width: 300px;
+  height: 100px;
+  color: red;
+}
+.cyan {
+  background-color: rgb(0, 255, 255);
+  width: 300px;
+  height: 100px;
+  color: rgb(0, 0, 255);
+}
+.yellow {
+  background-color: #ffd700;
+  width: 300px;
+  height: 100px;
+  color: #32cd32;
+}
+.purplle {
+  background-color: hsl(258, 45%, 45%);
+  width: 300px;
+  height: 100px;
+  color: hsl(340, 57%, 64%);
+}

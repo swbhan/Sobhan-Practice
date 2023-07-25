@@ -1,0 +1,26 @@
+.color {
+  background-image: linear-gradient(to top, blue, cyan);
+  height: 90px;
+  width: 50%;
+  border-left: solid;
+  border-color: purple;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 10%;
+}
+.image {
+  background-image: url(../image/image.jpg);
+  height: 90px;
+  width: 50%;
+  border-left: solid;
+  border-color: rgb(0, 255, 106);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  background-position: center;
+  margin-top: 30px;
+}
