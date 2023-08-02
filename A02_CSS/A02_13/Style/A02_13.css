@@ -1,0 +1,25 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 119), cyan);
+}
+.box {
+  background-image: url(../images/286260.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-position: center;
+}
+.box h1 {
+  padding-top: 200px;
+  color: white;
+  text-align: center;
+}
