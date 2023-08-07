@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+.box1 {
+  width: 600px;
+  height: 80px;
+  background-color: chartreuse;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+.box1 p {
+  color: black;
+}
+.box2 {
+  width: 600px;
+  height: 80px;
+  background-color: rgb(7, 209, 209);
+  margin: 20px auto;
+  border: 2px dotted rgb(99, 99, 187);
+}
+.box2 p {
+  color: rgb(99, 99, 187);
+}
+.box3 {
+  width: 600px;
+  height: 80px;
+  background-color: #ffdd00;
+  border: 2px double rgb(241, 74, 13);
+  margin: 20px auto;
+}
+.box3 p {
+  color: rgb(241, 74, 13);
+}
+.box4 {
+  width: 600px;
+  height: 80px;
+  background-color: hsl(248, 62%, 81%);
+  margin: 20px auto;
+  border: 2px dotted hsl(249, 48%, 32%);
+}
+.box4 p {
+  color: hsl(249, 48%, 32%);
+}

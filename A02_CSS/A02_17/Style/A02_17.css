@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Great Vibes";
+  src: url(../font/GreatVibes-Regular.ttf);
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url(../image/background.jpg);
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+}
+.box {
+  background-image: url(../image/sherlock\ holmes.jpg);
+  width: 300px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  min-height: 10vh;
+}
+.box2 {
+  color: rgb(0, 0, 0);
+  padding-top: 200px;
+  font-size: 35px;
+  text-align: center;
+}
+.box2 span {
+  color: rgba(29, 29, 29, 0.8);
+  font-size: 17px;
+  font-family: "Edu SA Beginner";
+}
+.box3 {
+  backdrop-filter: blur(10px);
+  height: 160px;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.box4 {
+  border: solid 1px;
+  background-color: black;
+  padding-bottom: 2px;
+  height: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.box4 p {
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+}
+.sherlock {
+  font-family: Great Vibes;
+  font-size: 50px;
+}
+img {
+  width: 35px;
+  height: 35px;
+  padding-top: 10px;
+}

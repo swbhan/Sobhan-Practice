@@ -1,0 +1,27 @@
+@font-face {
+  font-family: raleway;
+  src: url(../font/Raleway-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-family: "Tilt Prism", cursive;
+  font-size: 5em;
+  margin-top: 50px;
+  color: black;
+}
+p {
+  text-align: justify;
+  font-family: raleway;
+  font-size: 1.5em;
+}
