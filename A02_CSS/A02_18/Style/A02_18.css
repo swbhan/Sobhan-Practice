@@ -1,0 +1,15 @@
+.link :hover {
+  color: cadetblue;
+}
+.link2:active {
+  font-size: 100px;
+}
+.link3:hover {
+  background-color: blueviolet;
+}
+.link4:active {
+  font-family: monospace;
+}
+.link5:hover {
+  font-style: italic;
+}

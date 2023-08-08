@@ -52,15 +52,25 @@ body {
   border-bottom-right-radius: 15px;
   padding-top: 5px;
   margin-top: 10px;
+  text-decoration: none;
 }
 .box4 p {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 21px;
 }
 .sherlock {
   font-family: Great Vibes;
   font-size: 50px;
+}
+.box4:hover {
+  background-color: gray;
+}
+.text {
+  text-decoration: none;
+}
+a {
+  padding-bottom: -10px;
 }
 #tag {
   text-decoration: none;
@@ -69,4 +79,7 @@ body {
   padding-top: 18px;
   padding-bottom: 10px;
   font-size: 31px;
+}
+#tag:hover {
+  color: gray;
 }
