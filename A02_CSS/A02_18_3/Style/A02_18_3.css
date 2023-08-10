@@ -7,7 +7,7 @@
 body {
   background-color: rgb(168, 164, 164);
 }
-nav {
+.content {
   margin-top: 70px;
   margin-left: 30px;
   font-family: "Edu SA Beginner";
