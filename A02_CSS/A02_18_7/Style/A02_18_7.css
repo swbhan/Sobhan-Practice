@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(#bdc3c7, #2c3e50);
+}
+.box {
+  background-image: url(../image/mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 450px;
+  margin-top: 100px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  padding-top: 90px;
+  color: rgb(0, 209, 209);
+  font-family: "Dosis", sans-serif;
+}
+p {
+  font-size: 0px;
+}
+.box:hover .box2 {
+  background-image: linear-gradient(
+    rgb(0, 255, 255, 0.8),
+    rgb(255, 255, 255, 0.1)
+  );
+}
+.box2 {
+  text-align: center;
+  border: solid white 2px;
+  width: 300px;
+  height: 450px;
+}
+.box:hover h1 {
+  color: black;
+  text-align: left;
+  padding: 30px 20px;
+}
+.box:hover p {
+  color: white;
+  font-size: 19px;
+  font-family: "Dancing Script", cursive;
+  text-align: justify;
+  padding: 0px 20px;
+}
+a {
+  font-size: 0px;
+}
+.box:hover .link {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(0, 202, 202);
+  border: 2px black solid;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+.box:hover a {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+#link:hover {
+  color: black;
+}
