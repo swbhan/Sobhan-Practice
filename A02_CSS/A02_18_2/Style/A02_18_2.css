@@ -72,7 +72,7 @@ body {
 a {
   padding-bottom: -10px;
 }
-#tag {
+.fa {
   text-decoration: none;
   color: black;
   width: 42px;
@@ -80,6 +80,6 @@ a {
   padding-bottom: 10px;
   font-size: 31px;
 }
-#tag:hover {
+.fa:hover {
   color: gray;
 }

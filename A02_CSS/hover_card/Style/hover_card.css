@@ -1,0 +1,50 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../image/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto;
+  margin-top: 140px;
+  border-radius: 50%;
+}
+.card:hover {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-top: 140px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 25px 3px white;
+  cursor: default;
+}
+.card:hover h1 {
+  text-align: center;
+  font-size: 40px;
+  color: rgba(0, 81, 255, 0.9);
+  font-family: "Dancing Script", cursive;
+  padding-top: 20px;
+}
+.card:hover p {
+  margin-top: 30px;
+  padding: 0 30px;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 68, 0, 0.712);
+  line-height: 1.7;
+  font-family: "Dosis", sans-serif;
+  font-style: italic;
+}
+h1,
+p {
+  font-size: 0px;
+}
