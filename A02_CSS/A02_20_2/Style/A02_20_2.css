@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  background-image: linear-gradient(to top right, cyan, yellow);
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+caption {
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: "Edu SA Beginner", cursive;
+  padding-bottom: 20px;
+}
+table {
+  background: white;
+  width: 80%;
+  height: 45px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 70px;
+  font-family: "Dancing Script", cursive;
+  color: black;
+  box-shadow: 1px 2px 14px black;
+  cursor: default;
+  padding-right: 40px;
+}
+.space {
+  margin-top: 20px;
+  font-family: "Edu SA Beginner";
+}
+.space:hover {
+  color: rgb(0, 247, 255);
+  background: gray;
+  box-shadow: 1px 2px 25px black;
+}
