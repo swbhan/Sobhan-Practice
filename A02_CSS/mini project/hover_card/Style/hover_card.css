@@ -20,7 +20,11 @@ body {
 .card:hover {
   width: 400px;
   height: 400px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.034),
+    rgba(0, 0, 0, 0.678)
+  );
   margin: 0 auto;
   margin-top: 140px;
   border-radius: 50%;
@@ -39,7 +43,7 @@ body {
   padding: 0 30px;
   font-size: 16px;
   text-align: center;
-  color: rgba(255, 68, 0, 0.712);
+  color: rgba(255, 68, 0, 0.815);
   line-height: 1.7;
   font-family: "Dosis", sans-serif;
   font-style: italic;

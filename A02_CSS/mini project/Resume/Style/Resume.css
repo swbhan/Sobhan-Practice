@@ -1,0 +1,195 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../image/2020_07_attack-on-titan-iphone-images-backgrounds-in-4k-8k-free.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+.card {
+  margin: 0 auto;
+  background-color: rgba(66, 0, 0, 0.671);
+  width: 90%;
+  height: 80vh;
+  border-radius: 20px;
+  line-height: 0.1;
+  padding: 15px;
+}
+.navbar {
+  line-height: 2;
+  text-align: right;
+  height: 1px;
+}
+.link {
+  font-size: 23px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 40px;
+  font-family: "kalam";
+}
+#Login {
+  margin-right: 50px;
+}
+i {
+  font-size: 20px;
+}
+#searche {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #ffff9d;
+}
+input {
+  visibility: hidden;
+}
+#searche:hover input {
+  visibility: visible;
+  border-radius: 10px;
+  width: 170px;
+  height: 21px;
+  margin-left: 1px;
+  border: solid black 2px;
+  padding-left: 7px;
+}
+.icon {
+  width: 60px;
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.text {
+  margin-top: 70px;
+  margin-left: 30px;
+  line-height: 1.2;
+}
+h2 {
+  color: #006fca;
+  font-size: 45px;
+  text-shadow: 0 2px 10px #006fca;
+}
+.text2 {
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  letter-spacing: 5px;
+  text-shadow: 0 2px 10px #ffffff;
+}
+p {
+  padding-top: 12px;
+  line-height: 2;
+  font-size: 15px;
+  color: white;
+  font-family: "kalam";
+  text-align: justify;
+}
+.A-O-T {
+  width: 400px;
+  height: 280px;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+.link:hover {
+  color: rgb(21, 60, 143);
+  transition: 0.5;
+}
+.button {
+  color: red;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 3;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px 15px;
+  border: 1px solid red;
+  padding-right: 16px;
+  margin-left: 550px;
+  margin-right: 2px;
+}
+.button2 {
+  color: red;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 3;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px 15px;
+  border: 1px solid red;
+  padding-left: 16px;
+}
+.button:hover {
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  transition: 0.8s;
+}
+.button2:hover {
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  transition: 0.8s;
+}
+.About {
+  background-color: white;
+  height: 400px;
+  width: 100%;
+}
+.News {
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 800px;
+  height: 600px;
+  border: 2px solid black;
+  background-image: linear-gradient(to top right, #44ffef57, #7401016c);
+}
+img {
+  height: 300px;
+  width: 400px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 50px;
+  padding: 0 5px;
+  font-family: "Dancing Script", cursive;
+  text-align: justify;
+  text-shadow: 0 2px 10px #2e2e2e;
+}
+.text3 {
+  padding: 0 10px;
+  text-align: justify;
+  font-family: "kalam";
+}
+.footer {
+  margin-top: 150px;
+  height: 230px;
+  width: 100%;
+  background: rgba(51, 51, 51, 0.452);
+}
+h3 {
+  font-size: 45px;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  color: rgb(16, 184, 133);
+  padding-top: 30px;
+}
+#tag {
+  text-decoration: none;
+  color: rgb(252, 252, 252);
+  width: 42px;
+  padding-top: 10px;
+  font-size: 37px;
+  margin-left: 15px;
+  line-height: 2.3;
+}
+#tag:hover {
+  color: #2e2e2e;
+}
+.logo {
+  text-align: center;
+}
+.tag {
+  text-decoration: none;
+  color: aqua;
+  padding-left: 20px;
+  font-family: "Edu SA Beginner";
+}

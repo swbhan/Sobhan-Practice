@@ -23,13 +23,16 @@ table {
   width: 80%;
   height: 45px;
   margin: 0 auto;
-  text-align: left;
+  text-align: start;
   margin-top: 70px;
   font-family: "Dancing Script", cursive;
   color: black;
   box-shadow: 1px 2px 14px black;
   cursor: default;
-  padding-right: 40px;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 16px;
+  border-radius: 5px;
 }
 .space {
   margin-top: 20px;
@@ -37,6 +40,32 @@ table {
 }
 .space:hover {
   color: rgb(0, 247, 255);
-  background: gray;
-  box-shadow: 1px 2px 25px black;
+  background: rgb(0, 0, 0);
+  box-shadow: 1px 2px 40px rgb(0, 0, 0);
+  font-size: 22px;
+  border: solid 2px rgb(174, 0, 255);
+  border-radius: 20px;
+  cursor: pointer;
+}
+th {
+  font-size: 20px;
+}
+.payment_status {
+  padding-right: 45px;
+  text-align: left;
+  padding-left: 70px;
+}
+.customer_name {
+  padding-right: 80px;
+  text-align: left;
+  padding-left: 30px;
+}
+.amount_due {
+  text-align: left;
+  padding-right: 100px;
+  padding-right: 70px;
+}
+.amount_due2 {
+  padding-left: 10px;
+  padding-right: 50px;
 }
