@@ -155,8 +155,8 @@ hr {
   box-shadow: 0 0 40px rgb(0, 0, 0);
 }
 .The-Empire-Strikes-Back {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/1602843.jpg);
   background-position: top;
   background-size: cover;
@@ -168,8 +168,8 @@ hr {
 .background-color {
   background-color: rgba(0, 0, 0, 0.548);
   border-radius: 20px;
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
 }
 .title-movie {
   font-size: 20px;
@@ -179,8 +179,8 @@ hr {
   color: rgb(255, 255, 255);
 }
 .The-Empire-Strikes-Back:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .The-Empire-Strikes-Back:hover .title-movie {
@@ -188,8 +188,8 @@ hr {
   padding-top: 30px;
 }
 .The-Empire-Strikes-Back:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -208,8 +208,8 @@ hr {
   visibility: visible;
 }
 .Return-of-the-Jedi {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/wp5981459-star-wars-return-of-the-jedi-wallpapers.jpg);
   background-position: center;
   background-size: cover;
@@ -219,8 +219,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .Return-of-the-Jedi:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .Return-of-the-Jedi:hover .title-movie {
@@ -228,8 +228,8 @@ hr {
   padding-top: 30px;
 }
 .Return-of-the-Jedi:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -243,8 +243,8 @@ hr {
   color: #00bfff;
 }
 .The-Phantom-Menace {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/1603121.jpg);
   background-position: center;
   background-size: cover;
@@ -254,8 +254,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .The-Phantom-Menace:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .The-Phantom-Menace:hover .title-movie {
@@ -263,8 +263,8 @@ hr {
   padding-top: 30px;
 }
 .The-Phantom-Menace:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -279,18 +279,18 @@ hr {
 }
 .box {
   width: 100%;
-  height: 240px;
+  height: 33vh;
   padding-top: 20px;
 }
 .box2 {
   width: 100%;
-  height: 240px;
+  height: 33vh;
   padding-top: 20px;
   margin-bottom: 20px;
 }
 .Attack-of-the-Clones {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/1603169.jpg);
   background-position: center;
   background-size: cover;
@@ -300,8 +300,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .Attack-of-the-Clones:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .Attack-of-the-Clones:hover .title-movie {
@@ -309,8 +309,8 @@ hr {
   padding-top: 30px;
 }
 .Attack-of-the-Clones:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -324,8 +324,8 @@ hr {
   visibility: visible;
 }
 .Revenge-of-the-Sith {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/2120936.jpg);
   background-position: center;
   background-size: cover;
@@ -335,8 +335,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .Revenge-of-the-Sith:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .Revenge-of-the-Sith:hover .title-movie {
@@ -344,8 +344,8 @@ hr {
   padding-top: 30px;
 }
 .Revenge-of-the-Sith:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -359,8 +359,8 @@ hr {
   visibility: visible;
 }
 .The-Force-Awakens {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/1603213.jpg);
   background-position: center;
   background-size: cover;
@@ -370,8 +370,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .The-Force-Awakens:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .The-Force-Awakens:hover .title-movie {
@@ -379,8 +379,8 @@ hr {
   padding-top: 30px;
 }
 .The-Force-Awakens:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -394,8 +394,8 @@ hr {
   color: #00bfff;
 }
 .Rogue-One {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/1471005.jpg);
   background-position: center;
   background-size: cover;
@@ -405,8 +405,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .Rogue-One:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .Rogue-One:hover .title-movie {
@@ -414,8 +414,8 @@ hr {
   padding-top: 30px;
 }
 .Rogue-One:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -429,8 +429,8 @@ hr {
   visibility: visible;
 }
 .The-Last-Jedi {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/150193.jpg);
   background-position: center;
   background-size: cover;
@@ -440,8 +440,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .The-Last-Jedi:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .The-Last-Jedi:hover .title-movie {
@@ -449,8 +449,8 @@ hr {
   padding-top: 30px;
 }
 .The-Last-Jedi:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -464,8 +464,8 @@ hr {
   color: #00bfff;
 }
 .The-Rise-of-Skywalker {
-  width: 150px;
-  height: 150px;
+  width: 11vw;
+  height: 22vh;
   background-image: url(../image/2187612.png);
   background-position: center;
   background-size: cover;
@@ -475,8 +475,8 @@ hr {
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
 .The-Rise-of-Skywalker:hover {
-  height: 230px;
-  width: 170px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
 }
 .The-Rise-of-Skywalker:hover .title-movie {
@@ -484,8 +484,8 @@ hr {
   padding-top: 30px;
 }
 .The-Rise-of-Skywalker:hover .background-color {
-  width: 170px;
-  height: 230px;
+  width: 12.4vw;
+  height: 32vh;
   transition: 0.5s;
   background-color: rgba(250, 235, 215, 0);
 }
@@ -524,7 +524,7 @@ hr {
   padding-top: 5px;
 }
 .border:hover {
-  background-image: linear-gradient(to top, rgba(0, 174, 255, 0.103), black);
+  background-image: linear-gradient(to top, #00aeff0c, #000000);
 }
 .border:hover .story {
   text-align: justify;
