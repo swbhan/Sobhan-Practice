@@ -711,8 +711,8 @@ hr {
 .luke {
   width: 50px;
   height: 400px;
-  background-image: url(../image/peakpx4.jpg);
-  background-position: center;
+  background-image: url(../image/888754.jpg);
+  background-position: top;
   background-size: cover;
   border-radius: 30px;
   cursor: default;
@@ -726,12 +726,12 @@ hr {
   margin-left: 20px;
 }
 .luke:hover .luke-profile {
-  background-image: url(../image/874774.jpg);
-  transition: 2s;
+  background-image: url(../image/7631677.jpg);
   background-position: center;
   background-size: cover;
   width: 85px;
   height: 85px;
+  transition: 2s;
 }
 .luke-profile {
   background-image: url(../image/27e70ee20d411cd7c8d4a91c4462ab76.jpg);
