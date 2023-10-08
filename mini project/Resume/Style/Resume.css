@@ -568,7 +568,6 @@ hr {
 }
 .section3-box:hover {
   box-shadow: 0 0 20px black;
-  transition: 0.3s;
 }
 .box-title {
   text-align: center;
@@ -622,7 +621,7 @@ hr {
   visibility: visible;
   font-size: 36px;
   padding-top: 10px;
-  color: rgb(43, 75, 64);
+  color: rgb(0, 255, 166);
   text-align: center;
   transition: 2s;
   font-family: "Dancing Script", cursive;
@@ -637,14 +636,14 @@ hr {
   padding-top: 30px;
   font-family: "Edu SA Beginner";
 }
-.background-color2 {
+.linear-Gradient {
   margin-left: auto;
   margin-right: auto;
   width: 50px;
   height: 400px;
   border-radius: 30px;
 }
-.baby-yoda:hover .background-color2 {
+.baby-yoda:hover .linear-Gradient {
   width: 250px;
   height: 400px;
   transition: 2s;
@@ -683,7 +682,7 @@ hr {
   visibility: visible;
   font-size: 36px;
   padding-top: 10px;
-  color: rgb(43, 75, 64);
+  color: rgb(0, 255, 166);
   text-align: center;
   transition: 2s;
   font-family: "Dancing Script", cursive;
@@ -733,14 +732,15 @@ hr {
   height: 85px;
   transition: 2s;
 }
-.luke-profile {
+.luke-profile,
+.BB-8-profile {
   background-image: url(../image/27e70ee20d411cd7c8d4a91c4462ab76.jpg);
 }
 .luke:hover .section3-title {
   visibility: visible;
   font-size: 36px;
   padding-top: 10px;
-  color: rgb(43, 75, 64);
+  color: rgb(0, 255, 166);
   text-align: center;
   transition: 2s;
   font-family: "Dancing Script", cursive;
@@ -762,6 +762,170 @@ hr {
   background-image: linear-gradient(
     to top,
     rgba(0, 162, 255, 0.384),
+    rgba(255, 255, 255, 0)
+  );
+}
+.BB-8 {
+  width: 50px;
+  height: 400px;
+  background-image: url(../image/1.jpg);
+  background-position: right;
+  background-size: cover;
+  border-radius: 30px;
+  cursor: default;
+  margin-left: 100px;
+  float: left;
+}
+.BB-8:hover {
+  width: 250px;
+  height: 400px;
+  transition: 2s;
+  margin-left: 20px;
+}
+.BB-8:hover .BB-8-profile {
+  background-image: url(../image/pxfuel2.jpg);
+  background-size: cover;
+  background-position: left;
+  width: 85px;
+  height: 85px;
+  transition: 2s;
+}
+.BB-8:hover .section3-title {
+  visibility: visible;
+  font-size: 36px;
+  padding-top: 10px;
+  color: rgb(0, 255, 166);
+  text-align: center;
+  transition: 2s;
+  font-family: "Dancing Script", cursive;
+}
+.BB-8:hover .section3-text {
+  visibility: visible;
+  font-size: 14px;
+  color: rgb(217, 255, 0);
+  text-align: justify;
+  transition: 2s;
+  padding: 0 20px;
+  padding-top: 30px;
+  font-family: "Edu SA Beginner";
+}
+.BB-8:hover .white {
+  width: 250px;
+  height: 400px;
+  transition: 2s;
+  background-image: linear-gradient(to top, #ffffff54, rgba(255, 255, 255, 0));
+}
+.Darth-Vader {
+  width: 50px;
+  height: 400px;
+  background-image: url(../image/wallpaperflare.com_wallpaper5.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  cursor: default;
+  margin-left: 100px;
+  float: left;
+}
+.Darth-Vader:hover {
+  width: 250px;
+  height: 400px;
+  transition: 2s;
+  margin-left: 20px;
+  background-size: cover;
+}
+.Darth-Vader-profile,
+.Captain-Phasma-profile {
+  background-image: url(../image/pxfuel\ 9.jpg);
+}
+.Darth-Vader:hover .Darth-Vader-profile {
+  background-image: url(../image/wallpaperflare.com_wallpaper\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 85px;
+  height: 85px;
+  transition: 2s;
+}
+.Darth-Vader:hover .section3-title {
+  visibility: visible;
+  font-size: 36px;
+  padding-top: 10px;
+  color: rgb(0, 255, 166);
+  text-align: center;
+  transition: 2s;
+  font-family: "Dancing Script", cursive;
+}
+.Darth-Vader:hover .section3-text {
+  visibility: visible;
+  font-size: 14px;
+  color: rgb(217, 255, 0);
+  text-align: justify;
+  transition: 2s;
+  padding: 0 20px;
+  padding-top: 30px;
+  font-family: "Edu SA Beginner";
+}
+.Darth-Vader:hover .red {
+  width: 250px;
+  height: 400px;
+  transition: 2s;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0.384),
+    rgba(255, 255, 255, 0)
+  );
+}
+.Captain-Phasma {
+  width: 50px;
+  height: 400px;
+  background-image: url(../image/5688325.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  cursor: default;
+  margin-left: 100px;
+  float: left;
+}
+.Captain-Phasma:hover {
+  width: 250px;
+  height: 400px;
+  transition: 2s;
+  margin-left: 20px;
+  background-size: cover;
+}
+.Captain-Phasma:hover .Captain-Phasma-profile {
+  background-image: url(../image/3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 85px;
+  height: 85px;
+  transition: 2s;
+}
+.Captain-Phasma:hover .section3-title {
+  visibility: visible;
+  font-size: 36px;
+  padding-top: 10px;
+  color: rgb(0, 255, 166);
+  text-align: center;
+  transition: 2s;
+  font-family: "Dancing Script", cursive;
+}
+.Captain-Phasma:hover .section3-text {
+  visibility: visible;
+  font-size: 14px;
+  color: rgb(217, 255, 0);
+  text-align: justify;
+  transition: 2s;
+  padding: 0 20px;
+  padding-top: 30px;
+  font-family: "Edu SA Beginner";
+}
+.Captain-Phasma:hover .red {
+  width: 250px;
+  height: 400px;
+  transition: 2s;
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0.384),
     rgba(255, 255, 255, 0)
   );
 }
