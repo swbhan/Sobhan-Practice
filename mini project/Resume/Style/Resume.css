@@ -575,6 +575,7 @@ hr {
   color: rgb(0, 0, 0);
   font-family: "Dosis", sans-serif;
   padding-bottom: 40px;
+  text-shadow: 2px 3px 5px #000000;
 }
 .baby-yoda {
   width: 50px;
@@ -928,4 +929,50 @@ hr {
     rgba(255, 0, 0, 0.384),
     rgba(255, 255, 255, 0)
   );
+}
+footer {
+  background-image: url(../image/footer.jpg);
+  background-size: cover;
+  height: 70vh;
+}
+footer .footer-background {
+  background-color: rgba(0, 0, 0, 0.801);
+  height: 70vh;
+  padding: 50px 300px 0px 300px;
+}
+.footer-background a {
+  margin-left: 300px;
+}
+.footer-background a i {
+  margin-right: 10px;
+  background-color: rgb(44, 41, 41);
+  padding: 15px;
+  border-radius: 50%;
+}
+.footer-background hr {
+  margin: 20px 0px 20px 0px;
+  border-color: gray;
+}
+.footer-background table {
+  width: 100%;
+  height: 60%;
+  text-align: left;
+  border-spacing: 10px;
+}
+.footer-background th {
+  color: white;
+  padding-right: 60px;
+  font-family: "Great Vibes";
+}
+.footer-background td {
+  color: rgb(111, 106, 106);
+  padding-right: 20px;
+  font-family: "Edu SA Beginner";
+}
+.footer-background p {
+  text-align: center;
+  color: white;
+}
+pre {
+  font-family: sans-serif;
 }
