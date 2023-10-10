@@ -1,13 +1,9 @@
+/* start */
+
 * {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
-}
-.header {
-  background: url(../image/wp3614516-star-wars-4k-wallpapers.jpg);
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
 }
 .background-layer {
   background: linear-gradient(
@@ -20,18 +16,7 @@
   width: 100%;
 }
 .background-layer2 {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.419),
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.433)
-  );
   height: 120vh;
-  width: 100%;
-}
-#in-page-channel-node-id {
-  width: 0px;
-  height: 0px;
 }
 .blur {
   backdrop-filter: blur(6px);
@@ -39,14 +24,19 @@
   width: 100%;
 }
 .blur2 {
-  backdrop-filter: blur(6px);
   height: 120vh;
-  width: 100%;
 }
 .blur3 {
   backdrop-filter: blur(10px);
+}
+
+/* header start */
+
+.header {
+  background: url(../image/wp3614516-star-wars-4k-wallpapers.jpg);
   height: 100vh;
-  width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 .head {
   background: url(../image/wp3614516-star-wars-4k-wallpapers.jpg);
@@ -58,6 +48,9 @@
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.863);
 }
+
+/* navigationbar start */
+
 b {
   color: white;
   font-family: "kalam", cursive;
@@ -67,7 +60,7 @@ hr {
   width: 99%;
   margin: 0 auto;
 }
-#envelope {
+.envelope {
   color: rgba(255, 255, 255, 0.911);
   padding-left: 50px;
   padding-right: 5px;
@@ -75,7 +68,7 @@ hr {
   font-size: 20px;
   padding-bottom: 10px;
 }
-#phone {
+.phone {
   color: rgb(255, 255, 255);
   font-size: 17px;
   padding-left: 10px;
@@ -87,27 +80,19 @@ hr {
   font-family: "Edu SA Beginner", cursive;
   color: white;
 }
-#twitter {
+.twitter {
   color: white;
   text-decoration: none;
   margin-left: 600px;
 }
-#social-media {
+.social-media {
   color: white;
   text-decoration: none;
   margin-left: 6px;
 }
-#social-media:hover {
+.social-media:hover,
+.twitter:hover {
   color: gray;
-}
-#twitter:hover {
-  color: gray;
-}
-.star-wars {
-  width: 12%;
-  height: 15vh;
-  margin-top: 15px;
-  margin-left: 40px;
 }
 .link {
   padding-top: 12px;
@@ -131,6 +116,13 @@ hr {
   border-radius: 10px;
   transition: 0.2s;
 }
+/* navigationbar end */
+.star-wars {
+  width: 12%;
+  height: 15vh;
+  margin-top: 15px;
+  margin-left: 40px;
+}
 .title {
   font-size: 45px;
   font-family: "Dosis", sans-serif;
@@ -145,6 +137,11 @@ hr {
   display: inline-block;
   font-size: 14px;
 }
+
+/* header end */
+
+/* section1 start */
+
 .section1 {
   background-image: url(../image/wp3614506-star-wars-4k-wallpapers.jpg);
   height: 120vh;
@@ -161,14 +158,18 @@ hr {
   border-radius: 20px;
   box-shadow: 0 0 40px rgb(0, 0, 0);
 }
-.The-Empire-Strikes-Back {
+.box {
+  width: 100%;
+  height: 33vh;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.box div {
   width: 11vw;
   height: 22vh;
-  background-image: url(../image/1602843.jpg);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   border-radius: 20px;
-  margin-left: 60px;
   float: left;
   box-shadow: 0 0 30px rgb(0, 0, 0);
 }
@@ -186,16 +187,16 @@ hr {
   color: rgb(255, 255, 255);
   cursor: default;
 }
-.The-Empire-Strikes-Back:hover {
+.box div:hover {
   width: 12.4vw;
   height: 32vh;
   transition: 0.5s;
 }
-.The-Empire-Strikes-Back:hover .title-movie {
+.box div:hover .title-movie {
   padding: 0 10px;
   padding-top: 30px;
 }
-.The-Empire-Strikes-Back:hover .background-color {
+.box div:hover .background-color {
   width: 12.4vw;
   height: 32vh;
   transition: 0.5s;
@@ -204,10 +205,10 @@ hr {
 .description {
   visibility: hidden;
   padding: 0 10px;
-  font-size: 0;
+  font-size: 5px;
   cursor: default;
 }
-.The-Empire-Strikes-Back:hover .description {
+.box div:hover .description {
   font-size: 15px;
   font-family: "Edu SA Beginner", cursive;
   text-align: justify;
@@ -215,298 +216,48 @@ hr {
   transition: 0.8s;
   color: #00bfff;
   visibility: visible;
+}
+.The-Empire-Strikes-Back {
+  background-image: url(../image/1602843.jpg);
+  margin-left: 60px;
 }
 .Return-of-the-Jedi {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/wp5981459-star-wars-return-of-the-jedi-wallpapers.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-.Return-of-the-Jedi:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.Return-of-the-Jedi:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.Return-of-the-Jedi:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.Return-of-the-Jedi:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 2px 10px;
-  transition: 0.8s;
-  visibility: visible;
-  color: #00bfff;
 }
 .The-Phantom-Menace {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/1603121.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-.The-Phantom-Menace:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.The-Phantom-Menace:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.The-Phantom-Menace:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.The-Phantom-Menace:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 2px 10px;
-  transition: 0.8s;
-  visibility: visible;
-  color: #00bfff;
-}
-.box {
-  width: 100%;
-  height: 33vh;
-  padding-top: 20px;
-}
-.box2 {
-  width: 100%;
-  height: 33vh;
-  padding-top: 20px;
-  margin-bottom: 20px;
 }
 .Attack-of-the-Clones {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/1603169.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-.Attack-of-the-Clones:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.Attack-of-the-Clones:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.Attack-of-the-Clones:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.Attack-of-the-Clones:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 2px 10px;
-  transition: 0.8s;
-  color: #00bfff;
-  visibility: visible;
 }
 .Revenge-of-the-Sith {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/2120936.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-.Revenge-of-the-Sith:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.Revenge-of-the-Sith:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.Revenge-of-the-Sith:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.Revenge-of-the-Sith:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 2px 10px;
-  transition: 0.8s;
-  color: #00bfff;
-  visibility: visible;
 }
 .The-Force-Awakens {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/1603213.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-.The-Force-Awakens:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.The-Force-Awakens:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.The-Force-Awakens:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.The-Force-Awakens:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 2px 10px;
-  transition: 0.8s;
-  visibility: visible;
-  color: #00bfff;
 }
 .Rogue-One {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/1471005.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-.Rogue-One:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.Rogue-One:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.Rogue-One:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.Rogue-One:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 10px 10px;
-  transition: 0.8s;
-  color: #00bfff;
-  visibility: visible;
 }
 .The-Last-Jedi {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/150193.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-.The-Last-Jedi:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.The-Last-Jedi:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.The-Last-Jedi:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.The-Last-Jedi:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 2px 10px;
-  transition: 0.8s;
-  visibility: visible;
-  color: #00bfff;
 }
 .The-Rise-of-Skywalker {
-  width: 11vw;
-  height: 22vh;
   background-image: url(../image/2187612.png);
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
   margin-left: 60px;
-  float: left;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
 }
-.The-Rise-of-Skywalker:hover {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-}
-.The-Rise-of-Skywalker:hover .title-movie {
-  padding: 0 10px;
-  padding-top: 30px;
-}
-.The-Rise-of-Skywalker:hover .background-color {
-  width: 12.4vw;
-  height: 32vh;
-  transition: 0.5s;
-  background-color: rgba(250, 235, 215, 0);
-}
-.The-Rise-of-Skywalker:hover .description {
-  font-size: 15px;
-  font-family: "Edu SA Beginner", cursive;
-  text-align: justify;
-  padding: 2px 10px;
-  transition: 0.8s;
-  visibility: visible;
-  color: #00bfff;
-}
+
+/* section1 end */
+
+/* section2 start */
+
 .section2 {
   background: url(../image/3555525.jpg);
   height: 100vh;
@@ -520,7 +271,7 @@ hr {
   border-left: 2px solid white;
   border-right: 2px solid white;
 }
-.title-section2 {
+.section2-title {
   text-align: center;
   font-size: 45px;
   font-family: "Dosis", sans-serif;
@@ -547,6 +298,11 @@ hr {
   transition: 1s;
   cursor: default;
 }
+
+/* section2 end */
+
+/* section3 start */
+
 .section3 {
   height: 100vh;
   background-image: url(../image/777236.jpg);
@@ -577,18 +333,20 @@ hr {
   padding-bottom: 40px;
   text-shadow: 2px 3px 5px #000000;
 }
-.baby-yoda {
+.frame {
   width: 50px;
   height: 400px;
-  background-image: url(../image/1692004558532.jpg);
-  background-position: center;
   background-size: cover;
   border-radius: 30px;
   cursor: default;
   margin-left: 100px;
   float: left;
 }
-.baby-yoda:hover {
+.baby-yoda {
+  background-image: url(../image/1692004558532.jpg);
+  background-position: center;
+}
+.frame:hover {
   width: 250px;
   height: 400px;
   transition: 2s;
@@ -605,20 +363,22 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-.baby-yoda:hover .profile {
-  background-image: url(../image/1692012255096.jpg);
+.frame:hover .profile {
   background-position: center;
   background-size: cover;
   transition: 2s;
   width: 85px;
   height: 85px;
 }
+.baby-yoda:hover .profile {
+  background-image: url(../image/1692012255096.jpg);
+}
 .section3-title,
 .section3-text {
   visibility: hidden;
   font-size: 5px;
 }
-.baby-yoda:hover .section3-title {
+.frame:hover .section3-title {
   visibility: visible;
   font-size: 36px;
   padding-top: 10px;
@@ -627,7 +387,7 @@ hr {
   transition: 2s;
   font-family: "Dancing Script", cursive;
 }
-.baby-yoda:hover .section3-text {
+.frame:hover .section3-text {
   visibility: visible;
   font-size: 14px;
   color: rgb(217, 255, 0);
@@ -644,10 +404,12 @@ hr {
   height: 400px;
   border-radius: 30px;
 }
-.baby-yoda:hover .linear-Gradient {
+.frame:hover .linear-Gradient {
   width: 250px;
   height: 400px;
   transition: 2s;
+}
+.baby-yoda:hover .linear-Gradient {
   background-image: linear-gradient(
     to top,
     rgba(0, 255, 106, 0.301),
@@ -655,53 +417,13 @@ hr {
   );
 }
 .mandalorian {
-  width: 50px;
-  height: 400px;
-  background-image: url(../image/1692199395670.jpg);
+  background-image: url(../image/1982648.jpg);
   background-position: center;
-  background-size: cover;
-  border-radius: 30px;
-  cursor: default;
-  margin-left: 100px;
-  float: left;
-}
-.mandalorian:hover {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
-  margin-left: 20px;
 }
 .mandalorian:hover .mandalorian-profile {
-  background-image: url(../image/1692199422908.jpg);
-  background-position: center;
-  background-size: cover;
-  transition: 2s;
-  width: 85px;
-  height: 85px;
-}
-.mandalorian:hover .section3-title {
-  visibility: visible;
-  font-size: 36px;
-  padding-top: 10px;
-  color: rgb(0, 255, 166);
-  text-align: center;
-  transition: 2s;
-  font-family: "Dancing Script", cursive;
-}
-.mandalorian:hover .section3-text {
-  visibility: visible;
-  font-size: 14px;
-  color: rgb(217, 255, 0);
-  text-align: justify;
-  transition: 2s;
-  padding: 0 20px;
-  padding-top: 30px;
-  font-family: "Edu SA Beginner";
+  background-image: url(../image/7.jpg);
 }
 .mandalorian:hover .red {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
   background-image: linear-gradient(
     to top,
     rgba(255, 0, 0, 0.384),
@@ -709,57 +431,17 @@ hr {
   );
 }
 .luke {
-  width: 50px;
-  height: 400px;
   background-image: url(../image/888754.jpg);
-  background-position: top;
-  background-size: cover;
-  border-radius: 30px;
-  cursor: default;
-  margin-left: 100px;
-  float: left;
-}
-.luke:hover {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
-  margin-left: 20px;
+  background-position: center;
 }
 .luke:hover .luke-profile {
   background-image: url(../image/7631677.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 85px;
-  height: 85px;
-  transition: 2s;
 }
 .luke-profile,
 .BB-8-profile {
-  background-image: url(../image/27e70ee20d411cd7c8d4a91c4462ab76.jpg);
-}
-.luke:hover .section3-title {
-  visibility: visible;
-  font-size: 36px;
-  padding-top: 10px;
-  color: rgb(0, 255, 166);
-  text-align: center;
-  transition: 2s;
-  font-family: "Dancing Script", cursive;
-}
-.luke:hover .section3-text {
-  visibility: visible;
-  font-size: 14px;
-  color: rgb(217, 255, 0);
-  text-align: justify;
-  transition: 2s;
-  padding: 0 20px;
-  padding-top: 30px;
-  font-family: "Edu SA Beginner";
+  background-image: url(../image/Jedi\ logo.jpg);
 }
 .luke:hover .blue {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
   background-image: linear-gradient(
     to top,
     rgba(0, 162, 255, 0.384),
@@ -767,108 +449,27 @@ hr {
   );
 }
 .BB-8 {
-  width: 50px;
-  height: 400px;
   background-image: url(../image/1.jpg);
   background-position: right;
-  background-size: cover;
-  border-radius: 30px;
-  cursor: default;
-  margin-left: 100px;
-  float: left;
-}
-.BB-8:hover {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
-  margin-left: 20px;
 }
 .BB-8:hover .BB-8-profile {
   background-image: url(../image/pxfuel2.jpg);
-  background-size: cover;
-  background-position: left;
-  width: 85px;
-  height: 85px;
-  transition: 2s;
-}
-.BB-8:hover .section3-title {
-  visibility: visible;
-  font-size: 36px;
-  padding-top: 10px;
-  color: rgb(0, 255, 166);
-  text-align: center;
-  transition: 2s;
-  font-family: "Dancing Script", cursive;
-}
-.BB-8:hover .section3-text {
-  visibility: visible;
-  font-size: 14px;
-  color: rgb(217, 255, 0);
-  text-align: justify;
-  transition: 2s;
-  padding: 0 20px;
-  padding-top: 30px;
-  font-family: "Edu SA Beginner";
 }
 .BB-8:hover .white {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
   background-image: linear-gradient(to top, #ffffff54, rgba(255, 255, 255, 0));
 }
 .Darth-Vader {
-  width: 50px;
-  height: 400px;
   background-image: url(../image/wallpaperflare.com_wallpaper5.jpg);
   background-position: center;
-  background-size: cover;
-  border-radius: 30px;
-  cursor: default;
-  margin-left: 100px;
-  float: left;
-}
-.Darth-Vader:hover {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
-  margin-left: 20px;
-  background-size: cover;
 }
 .Darth-Vader-profile,
 .Captain-Phasma-profile {
-  background-image: url(../image/pxfuel\ 9.jpg);
+  background-image: url(../image/download\ .jpg);
 }
 .Darth-Vader:hover .Darth-Vader-profile {
   background-image: url(../image/wallpaperflare.com_wallpaper\ 3.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 85px;
-  height: 85px;
-  transition: 2s;
-}
-.Darth-Vader:hover .section3-title {
-  visibility: visible;
-  font-size: 36px;
-  padding-top: 10px;
-  color: rgb(0, 255, 166);
-  text-align: center;
-  transition: 2s;
-  font-family: "Dancing Script", cursive;
-}
-.Darth-Vader:hover .section3-text {
-  visibility: visible;
-  font-size: 14px;
-  color: rgb(217, 255, 0);
-  text-align: justify;
-  transition: 2s;
-  padding: 0 20px;
-  padding-top: 30px;
-  font-family: "Edu SA Beginner";
 }
 .Darth-Vader:hover .red {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
   background-image: linear-gradient(
     to top,
     rgba(255, 0, 0, 0.384),
@@ -876,60 +477,24 @@ hr {
   );
 }
 .Captain-Phasma {
-  width: 50px;
-  height: 400px;
   background-image: url(../image/5688325.jpg);
   background-position: center;
-  background-size: cover;
-  border-radius: 30px;
-  cursor: default;
-  margin-left: 100px;
-  float: left;
-}
-.Captain-Phasma:hover {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
-  margin-left: 20px;
-  background-size: cover;
 }
 .Captain-Phasma:hover .Captain-Phasma-profile {
   background-image: url(../image/3.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 85px;
-  height: 85px;
-  transition: 2s;
-}
-.Captain-Phasma:hover .section3-title {
-  visibility: visible;
-  font-size: 36px;
-  padding-top: 10px;
-  color: rgb(0, 255, 166);
-  text-align: center;
-  transition: 2s;
-  font-family: "Dancing Script", cursive;
-}
-.Captain-Phasma:hover .section3-text {
-  visibility: visible;
-  font-size: 14px;
-  color: rgb(217, 255, 0);
-  text-align: justify;
-  transition: 2s;
-  padding: 0 20px;
-  padding-top: 30px;
-  font-family: "Edu SA Beginner";
 }
 .Captain-Phasma:hover .red {
-  width: 250px;
-  height: 400px;
-  transition: 2s;
   background-image: linear-gradient(
     to top,
     rgba(255, 0, 0, 0.384),
     rgba(255, 255, 255, 0)
   );
 }
+
+/* section3 end */
+
+/* footer start */
+
 footer {
   background-image: url(../image/footer.jpg);
   background-size: cover;
@@ -976,3 +541,6 @@ footer .footer-background {
 pre {
   font-family: sans-serif;
 }
+
+/* footer end */
+/* end */
