@@ -345,10 +345,6 @@ hr {
   float: left;
   transition: 2s;
 }
-.baby-yoda {
-  background-image: url(../image/1692004558532.jpg);
-  background-position: center;
-}
 .frame:hover {
   width: 250px;
   height: 400px;
@@ -385,7 +381,7 @@ hr {
 }
 .section3-title {
   color: rgb(0, 255, 166);
-  transition: 1s;
+  transition: 2s;
   font-family: "Dancing Script", cursive;
 }
 .frame:hover .section3-title {
@@ -426,6 +422,10 @@ hr {
     rgba(0, 255, 106, 0.301),
     rgba(255, 255, 255, 0)
   );
+}
+.baby-yoda {
+  background-image: url(../image/1692004558532.jpg);
+  background-position: center;
 }
 .mandalorian {
   background-image: url(../image/1982648.jpg);
