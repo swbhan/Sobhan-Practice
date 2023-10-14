@@ -1,0 +1,115 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to bottom, #28ffff, #8f2222);
+  width: 100%;
+  height: 140vh;
+}
+.frame {
+  width: 95%;
+  height: 35vh;
+  border: white 2px solid;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.frame2 {
+  height: 45vh;
+}
+.sea {
+  background-image: url(../image/sea.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  width: 90%;
+  height: 10vh;
+}
+.sea2 {
+  background-image: url(../image/sea.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  width: 60%;
+  height: 5vh;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.sea3 {
+  background-image: url(../image/sea.jpg);
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  width: 80%;
+  height: 15.5vh;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.boat {
+  margin: 0 auto;
+  border: 2px white solid;
+  height: 20vh;
+  width: 23%;
+  background-image: url(../image/boat.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: inline-block;
+}
+.boat2 {
+  border: 2px white solid;
+  height: 34vh;
+  width: 50%;
+  background-image: url(../image/boat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: inline-block;
+}
+.boat3 {
+  border: 2px white solid;
+  height: 26vh;
+  width: 26%;
+  background-image: url(../image/boat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: inline-block;
+}
+.cat-dog {
+  margin: 15px auto;
+  height: 40vh;
+  width: 15%;
+  background-image: url(../image/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 7px;
+}
+.text {
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  font-size: 40px;
+}
+.text2 {
+  display: none;
+}
+.cat-dog:hover {
+  background-image: url(../image/dog.jpg);
+  padding: 0 20px;
+  padding-top: 100px;
+}
+.cat-dog:hover .text {
+  display: none;
+}
+.cat-dog:hover .text2 {
+  display: inline;
+  text-align: center;
+  color: #8f2222;
+  font-size: 15px;
+}
+p {
+  text-align: center;
+}
