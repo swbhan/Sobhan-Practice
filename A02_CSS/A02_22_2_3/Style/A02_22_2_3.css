@@ -1,0 +1,45 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 199, 199),
+    rgb(0, 55, 100)
+  );
+  height: 100vh;
+}
+.navbar {
+  width: 90%;
+  height: 30px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 5px;
+}
+a {
+  text-decoration: none;
+  text-align: left;
+  color: rgb(73, 0, 141);
+  padding-left: 50px;
+}
+.box {
+  width: 90%;
+  height: 40vh;
+  border: 2px white solid;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+  text-align: justify;
+  padding: 0 60px;
+  padding-top: 50px;
+}

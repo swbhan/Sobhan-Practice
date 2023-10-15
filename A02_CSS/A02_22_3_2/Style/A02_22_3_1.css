@@ -1,0 +1,30 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to top, red, cyan);
+  height: 100vh;
+}
+.box {
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: black;
+  max-width: 95%;
+  height: 30px;
+}
+.box2 {
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: black;
+  max-width: 30%;
+  height: 15px;
+}
+.box3 {
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: black;
+  max-width: 20%;
+  height: 50px;
+}
