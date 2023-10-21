@@ -1,0 +1,26 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../image/6725589.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+}
+.ubisuft {
+  margin: 0 auto;
+}
+.box {
+  display: inline-block;
+  margin: 0 auto;
+  /* margin-top: 100px; */
+  width: 40%;
+  height: 50vh;
+  background-image: url(../image/6725589.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
