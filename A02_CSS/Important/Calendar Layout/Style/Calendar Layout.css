@@ -1,0 +1,69 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.calendar {
+  width: 99.6%;
+  height: 30vh;
+  background-color: rgb(20, 36, 122);
+  text-align: center;
+  margin: 0 auto;
+  padding: 70px 20px;
+  cursor: default;
+}
+h3 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 18px;
+  display: inline-block;
+}
+.back {
+  float: left;
+  color: white;
+  font-size: 10px;
+  padding-top: 20px;
+}
+.next {
+  float: right;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.back:hover,
+.next:hover {
+  color: gray;
+}
+.week {
+  margin: auto;
+  width: 99.6%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.114);
+  color: rgba(0, 0, 0, 0.593);
+}
+
+.week div {
+  background-color: blue;
+}
+.week th {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.299);
+}
+.week td {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.week td a {
+  padding: 5px;
+}
+.week a:hover {
+  background-color: rgb(21, 21, 124);
+  color: white;
+}

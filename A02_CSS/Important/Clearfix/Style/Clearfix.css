@@ -1,0 +1,50 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.cat {
+  height: 20vh;
+  width: 95%;
+  background-color: #f5cdb6;
+  border: solid 3px black;
+  text-align: justify;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.image1 {
+  background-image: url(../image/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 122px;
+  height: 122px;
+  float: right;
+}
+.dog {
+  margin: 0 auto;
+  height: 20vh;
+  width: 95%;
+  background-color: #00ffdd;
+  border: solid 3px black;
+  text-align: justify;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+}
+.image2 {
+  background-image: url(../image/dog.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 170px;
+  height: 122px;
+  float: left;
+}
+p {
+  display: inline;
+  text-align: justify;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 160vh;
+  font-family: sans-serif;
+  background-image: linear-gradient(to top, rgb(43, 137, 155), rgb(12, 52, 69));
+}
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
+h1,
+h3 {
+  margin-left: 25%;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.content {
+  width: 50%;
+  height: 130vh;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+.box1,
+.box2,
+.box3 {
+  background-image: url(../image/horse.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 220px;
+  height: 400px;
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  left: 0;
+  border: 6px solid white;
+}
+h2 {
+  display: inline;
+  font-size: 15px;
+  margin-right: 160px;
+  margin-left: 5px;
+  font-family: sans-serif;
+  line-height: 3;
+}
+p {
+  display: inline;
+  font-size: 15px;
+  margin-right: 120px;
+  margin-left: 5px;
+  font-family: sans-serif;
+}
+.lion {
+  margin: 0 auto;
+  background-image: url(../image/lion.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 98%;
+  height: 50vh;
+}

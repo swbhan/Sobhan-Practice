@@ -1,0 +1,56 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to top, rgb(0, 228, 209), rgb(0, 255, 179));
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  line-height: 2;
+}
+p {
+  padding: 0 150px;
+  text-align: justify;
+}
+a {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(0, 27, 77);
+  text-align: left;
+  line-height: 2;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.Home {
+  position: absolute;
+  left: -90px;
+  top: 20px;
+}
+.About {
+  position: absolute;
+  left: -90px;
+  top: 65px;
+}
+.More {
+  position: absolute;
+  left: -90px;
+  top: 110px;
+}
+.Content {
+  position: absolute;
+  left: -90px;
+  top: 155px;
+}
+a:hover {
+  transition: 0.7s;
+  left: -20px;
+  text-align: center;
+}

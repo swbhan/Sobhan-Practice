@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-bar {
+  height: 5vh;
+}
+.nav-bar ul {
+  background-color: rgb(174, 174, 174);
+  height: 100%;
+}
+.nav-bar li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav-bar .help {
+  float: right;
+  color: white;
+  background-color: rgb(0, 128, 128);
+}
+.bg-img-1 {
+  height: 95vh;
+  background-image: url(../image/lion.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+p {
+  color: white;
+  position: absolute;
+}
+.Top-Left {
+  top: 5px;
+  left: 5px;
+}
+.Top-right {
+  top: 5px;
+  right: 5px;
+}
+.center {
+  top: 50%;
+  left: 50%;
+  color: rgb(0, 119, 119);
+  font-size: 25px;
+}
+.Bottom-left {
+  bottom: 5px;
+  left: 5px;
+}
+.Boottom-right {
+  bottom: 5px;
+  right: 5px;
+}
+.bg-img-2 {
+  height: 100vh;
+  background-image: url(../image/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.bg-img-2 .text {
+  background-color: rgb(78, 78, 78);
+  height: 20%;
+}
+.text h1 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.bg-img-2 .frame {
+  background-color: black;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  height: 70px;
+  width: 200px;
+  padding: 10px;
+}
+.frame h2 {
+  color: rgb(0, 131, 131);
+  text-align: center;
+  padding-bottom: 5px;
+}
+.frame h4 {
+  color: rgb(178, 178, 178);
+  text-align: center;
+}
+li:hover {
+  color: white;
+  background-color: black;
+}

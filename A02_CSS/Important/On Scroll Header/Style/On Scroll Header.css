@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.box-1 {
+  height: 20vh;
+  background-image: linear-gradient(to top, rgb(0, 40, 78), rgb(0, 9, 37));
+  padding-top: 30px;
+}
+.box-1 h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box-1 p {
+  color: white;
+  text-align: center;
+}
+.box-2 {
+  height: 10vh;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.box-2 h2 {
+  text-align: center;
+}
+.box-3 {
+  background-color: rgb(0, 0, 35);
+  padding: 15px 5px;
+}
+.box-3 p {
+  color: white;
+  margin: 10px;
+  text-align: justify;
+}

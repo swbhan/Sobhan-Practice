@@ -1,0 +1,40 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.overflow {
+  height: 200px;
+  width: 200px;
+  overflow: visible;
+  background-color: aqua;
+  margin-top: 30px;
+  float: left;
+  margin-left: 120px;
+}
+.overflow2 {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background-color: aqua;
+  margin-top: 100px;
+  float: left;
+  margin-left: 40px;
+}
+.overflow3 {
+  height: 200px;
+  width: 240px;
+  overflow: scroll;
+  background-color: aqua;
+  margin-top: 100px;
+  float: left;
+  margin-left: 40px;
+}
+.overflow4 {
+  height: 200px;
+  width: 240px;
+  overflow: auto;
+  background-color: aqua;
+  margin-top: 100px;
+  float: left;
+  margin-left: 40px;
+}

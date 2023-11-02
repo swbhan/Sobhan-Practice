@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(to top, rgb(2, 37, 56), #8b8b8b6e);
+}
+h1 {
+  font-size: 25px;
+  font-family: serif;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.box1 {
+  width: 60%;
+  background-color: white;
+  height: 80px;
+  border: 2px solid rgb(88, 88, 88);
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 5px;
+  line-height: 3;
+  border-radius: 5px;
+}
+.cat {
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../image/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.cat,
+.chat {
+  float: left;
+}
+.clock {
+  margin-top: 35px;
+  float: right;
+  color: gray;
+}
+.box2 {
+  width: 60%;
+  background-color: grey;
+  height: 80px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 5px;
+  line-height: 1;
+}
+.dog {
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../image/dog.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 10px;
+  float: right;
+}
+.chat2 {
+  float: left;
+  margin-top: 12px;
+}
+.clock2 {
+  float: left;
+  color: rgb(56, 56, 56);
+  margin-top: 15px;
+}

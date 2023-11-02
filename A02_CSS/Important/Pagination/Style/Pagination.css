@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(to top, rgb(61, 157, 153), rgb(73, 73, 73));
+  cursor: default;
+}
+.pagination {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+.pagination a {
+  background-color: rgb(162, 162, 162);
+  color: black;
+  float: left;
+  padding: 8px 16px;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}

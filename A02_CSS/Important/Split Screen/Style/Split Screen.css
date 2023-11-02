@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.gray {
+  width: 50%;
+  height: 100vh;
+  background-color: gray;
+  float: left;
+  padding-top: 250px;
+}
+.black {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  float: right;
+  padding-top: 250px;
+}
+.lion {
+  margin: 0 auto;
+  width: 100px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(../image/lion.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.dog {
+  margin: 0 auto;
+  width: 100px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(../image/dog.jpg);
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+.black h1 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.black p {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}

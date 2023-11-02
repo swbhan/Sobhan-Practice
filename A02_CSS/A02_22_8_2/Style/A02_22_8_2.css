@@ -1,0 +1,15 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.box {
+  width: 99%;
+  height: 100px;
+  background-color: gray;
+  margin: 0 auto;
+  border: 3px solid cyan;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+  line-height: 6;
+}

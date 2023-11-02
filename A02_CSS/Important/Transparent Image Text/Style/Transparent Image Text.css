@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+.bg-color {
+  background-image: linear-gradient(black, rgb(87, 87, 87));
+  height: 100%;
+  padding-top: 10%;
+}
+.bg-color .container {
+  width: 50%;
+  height: 79%;
+  background-image: url(../image/cat.jpg);
+  background-position: center;
+  background-size: contain;
+  margin: auto;
+  position: relative;
+}
+.bg-color .container .content {
+  background-color: rgba(255, 255, 255, 0.426);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.content h1 {
+  text-align: center;
+  padding-top: 3%;
+  color: white;
+}
+.content p {
+  padding: 3%;
+}
