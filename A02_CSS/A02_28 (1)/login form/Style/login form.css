@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../image/background\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 130px;
+}
+.content {
+  width: 400px;
+  height: 400px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.416);
+  margin: auto;
+  border-radius: 10px;
+  padding: 0px 25px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
+i {
+  position: absolute;
+  right: 10%;
+  color: white;
+  margin-top: 20px;
+}
+input[type="text"] {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.416);
+  border-radius: 20px;
+  color: white;
+}
+label {
+  color: white;
+}
+button {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 0px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+span {
+  color: white;
+  margin: 0px 70px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}

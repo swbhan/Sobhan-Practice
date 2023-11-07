@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/Survey Form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bg-color">
+      <h1>Survey Form</h1>
+      <form action="/action_page.php">
+        <div class="container">
+          <div class="text">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Enter your name"
+            />
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <label for="age">Age</label>
+            <input
+              type="text"
+              id="age"
+              name="age"
+              placeholder="Enter your age"
+            />
+            <label for=" best option ">Which option best describes you?</label>
+            <select id=" best option " name=" best option ">
+              <option value="student">Student</option>
+              <option value="professional">Professional</option>
+            </select>
+          </div>
+
+          <div class="radio">
+            <label>Would you recommend W3Schools to a friend?</label>
+            <input
+              type="radio"
+              name="fav_language"
+              id="radio1"
+              value="yes"
+            />yes <br />
+            <input type="radio" name="fav_language" id="radio2" value="no" />no
+            <br />
+            <input
+              type="radio"
+              name="fav_language"
+              id="radio3"
+              value="maybe"
+            />maybe <br />
+          </div>
+          <div class="checked">
+            <label for="Languages and Frameworks"
+              ><h4>Languages and Frameworks know</h4>
+            </label>
+            <br />
+            <input type="checkbox" />C<br />
+            <input type="checkbox" />C++ <br />
+            <input type="checkbox" />c# <br />
+            <input type="checkbox" />Java<br />
+            <input type="checkbox" />Python<br />
+            <input type="checkbox" />JavaScript<br />
+            <input type="checkbox" />React<br />
+            <input type="checkbox" />Angular<br />
+            <input type="checkbox" />Django<br />
+            <input type="checkbox" />Spring<br />
+          </div>
+          <div class="comment">
+            <label>Any comments or suggestions</label>
+            <input type="text" />
+            <input type="submit" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-color {
+  background-color: rgb(39, 39, 39);
+  height: 100vh;
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+.content {
+  margin: auto;
+  width: 400px;
+}
+p {
+  color: rgba(255, 255, 255, 0.647);
+  margin-bottom: 20px;
+}
+form {
+  cursor: pointer;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.container {
+  position: relative;
+  color: rgba(255, 255, 255, 0.567);
+  padding: 15px 0px 20px 45px;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.453);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.checkmark {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid rgb(188, 188, 188);
+  background-color: #ffffff00;
+  transition: 0.1s;
+  padding: 4px;
+}
+.circle {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0);
+}
+.container:hover input ~ .checkmark {
+  border: 3px solid #ffffff;
+}
+.container:hover {
+  color: #ffffff;
+}
+.container input:checked ~ .checkmark {
+  border: 3px solid rgb(0, 132, 255);
+}
+input:checked ~ .checkmark > .circle {
+  background-color: rgb(0, 106, 255);
+}

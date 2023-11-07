@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 135vh;
+  background-image: linear-gradient(rgb(62, 69, 121), rgb(137, 78, 129));
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  padding: 30px 0px;
+  color: white;
+}
+form {
+  height: 90%;
+}
+.container {
+  width: 30%;
+  background-color: rgba(44, 44, 44, 0.686);
+  margin: auto;
+  height: 98%;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 30px;
+}
+.text label {
+  color: white;
+  padding-bottom: 20px;
+}
+input[type="text"],
+select {
+  width: 100%;
+  margin: 5px 0px 20px 0px;
+  height: 40px;
+  padding: 0px 10px;
+}
+input[type="radio"] {
+  display: inline-block;
+}
+.radio {
+  color: white;
+}
+.radio label {
+  display: block;
+}
+.radio input {
+  margin: 5px 0px;
+}
+h4,
+p {
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+}
+.checked {
+  color: white;
+}
+.checked input {
+  margin: 5px 0px;
+}
+.comment {
+  margin-top: 20px;
+}
+.comment label {
+  color: white;
+}
+.comment input[type="text"] {
+  height: 50px;
+  margin: 5px 0px 30px 0px;
+  padding: 0px 50px;
+}
+.comment input[type="submit"] {
+  background-color: rgb(72, 72, 72);
+  padding: 10px 70px;
+  border: 1px solid white;
+  color: white;
+  transform: translateX(90px);
+  border-radius: 20px;
+}

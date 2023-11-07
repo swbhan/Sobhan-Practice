@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url(../image/background\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+}
+.content {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.223);
+  border-radius: 20px;
+}
+.content h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.content p {
+  text-align: justify;
+  color: white;
+}
