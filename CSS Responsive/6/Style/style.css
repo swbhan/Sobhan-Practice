@@ -19,10 +19,7 @@ h1 {
   text-align: center;
   line-height: 4;
 }
-.column1,
-.column2,
-.column3,
-.column4 {
+.column {
   width: 25%;
   height: 100vh;
 }
@@ -37,4 +34,18 @@ h1 {
   height: 30%;
   border: 1px solid rgb(61, 61, 61);
   border-left: 5px solid rgb(61, 61, 61);
+}
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+    align-content: baseline;
+  }
+}
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    align-content: baseline;
+  }
 }
