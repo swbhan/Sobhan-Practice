@@ -1,0 +1,98 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: black;
+}
+.container {
+  display: flex;
+  height: 98vh;
+  width: 95%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.column1,
+.column2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  margin-top: 20px;
+}
+.box1 {
+  width: 100%;
+  height: 50%;
+  background-image: url(../image/1-1.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}
+.box2 {
+  width: 50%;
+  height: 25%;
+  background-image: url(../image/4.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}
+.box3 {
+  width: 50%;
+  height: 25%;
+  background-image: url(../image/5-5.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}
+.box4 {
+  width: 50%;
+  height: 25%;
+  background-image: url(../image/7-7.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}
+.box5 {
+  width: 50%;
+  height: 25%;
+  background-image: url(../image/6.jpg);
+  background-size: cover;
+  background-position: top;
+  border: black 3px solid;
+}
+.box6 {
+  width: 100%;
+  height: 25%;
+  background-image: url(../image/2-2.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}
+.box7 {
+  width: 100%;
+  height: 25%;
+  background-image: url(../image/3-3.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}
+.box8 {
+  width: 50%;
+  height: 50%;
+  background-image: url(../image/8.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}
+.box9 {
+  width: 50%;
+  height: 50%;
+  background-image: url(../image/9.jpg);
+  background-size: cover;
+  background-position: center;
+  border: black 3px solid;
+}

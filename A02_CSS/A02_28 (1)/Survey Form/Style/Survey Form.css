@@ -25,6 +25,7 @@ form {
   padding: 20px;
   border-radius: 0px 0px 10px 10px;
   margin-bottom: 30px;
+  box-shadow: 0 0 20px black;
 }
 .text label {
   color: white;

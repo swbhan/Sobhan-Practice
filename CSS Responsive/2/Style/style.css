@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(rgba(128, 128, 128, 0.621), white);
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  width: 85%;
+  height: 75%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.container div {
+  width: 30%;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  text-align: justify;
+}
+.moon {
+  background-image: url(../image/moon.jpg);
+  background-size: cover;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.saturn {
+  background-image: url(../image/saturn.jpg);
+  background-size: cover;
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.sky {
+  background-image: url(../image/sky.jpg);
+  background-size: cover;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}

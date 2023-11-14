@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 10px;
+}
+body {
+  background-color: black;
+  height: 130vh;
+}
+.image {
+  background-image: url(../image/gojo.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+  width: 40%;
+  margin: 0 auto;
+}
+.container {
+  display: grid;
+  grid-template-rows:
+    100px 100px 100px 100px 100px 100px 100px 100px
+    100px;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+.box1 {
+  grid-area: 1 / 1 / 1 / 4;
+  background-color: rgb(0, 40, 78);
+  font-size: 15px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: white;
+  padding-top: 30px;
+}
+.box2 {
+  grid-area: 2 / 6 / 3 / 11;
+  background-color: rgb(0, 40, 78);
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  padding-top: 30px;
+}
+.box3 {
+  grid-area: 3 / 4 / 3 / 6;
+  background-image: url(../image/102.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.box4 {
+  grid-area: 4 / 1 / 4 /11;
+  background-color: rgb(0, 40, 78);
+  font-size: 15px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 12px;
+  padding: 10px;
+  text-align: justify;
+}
+.box5 {
+  grid-area: 5 / 1 / 5 / 3;
+  background-image: url(../image/101.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.box6 {
+  grid-area: 6 / 8 / 6 / 11;
+  background-color: rgb(0, 40, 78);
+  font-size: 15px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  padding-top: 30px;
+  text-align: center;
+}
+.box7 {
+  grid-area: 7 / 1 / 7 / 3;
+  background-image: url(../image/99.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.box8 {
+  grid-area: 8 / 1 / 8 / 5;
+  background-color: rgb(0, 40, 78);
+  font-size: 13px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  padding-top: 30px;
+  text-align: center;
+}
+.box9 {
+  grid-area: 9 / 7 / 9 / 11;
+  background-color: rgb(0, 40, 78);
+  font-size: 15px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 12px;
+  padding: 10px;
+  text-align: justify;
+}

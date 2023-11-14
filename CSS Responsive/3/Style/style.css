@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 10px;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 255, 149),
+    rgb(0, 132, 255)
+  );
+}
+.container {
+  display: flex;
+  width: 75%;
+  height: 75%;
+  color: white;
+  margin: 0 auto;
+  box-shadow: 0 0 40px black;
+  transform: translatey(100px);
+}
+.column1 {
+  height: 100%;
+  width: 25%;
+}
+.column2 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: baseline;
+}
+.box1 {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(54, 54, 54);
+  padding: 20px 20px;
+}
+.box7 {
+  width: 100%;
+  height: 70%;
+  background-color: rgb(97, 89, 141);
+  padding: 140px 50px;
+}
+.box2 {
+  width: 50%;
+  height: 30%;
+  background-color: rgb(0, 195, 255);
+  text-align: center;
+  padding-top: 53px;
+}
+.box3 {
+  width: 50%;
+  height: 30%;
+  background-color: rgb(0, 197, 138);
+  text-align: center;
+  padding-top: 53px;
+}
+.box4 {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(54, 54, 54);
+  padding: 50px 60px;
+}
+.box5 {
+  width: 50%;
+  height: 30%;
+  background-color: rgb(0, 195, 255);
+  padding: 20px 20px;
+}
+.box6 {
+  width: 50%;
+  height: 30%;
+  background-color: rgb(0, 197, 138);
+  padding: 20px 20px;
+}
+.box8 {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(54, 54, 54);
+  text-align: center;
+  padding-top: 53px;
+}
+h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+p {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: rgb(219, 219, 219);
+  text-align: justify;
+}
